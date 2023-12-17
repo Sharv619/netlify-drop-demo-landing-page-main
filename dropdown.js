@@ -33,15 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
- 
-  });
+
   var toggleMoreOptionsButton = document.getElementById('toggle-more-options');
   if (toggleMoreOptionsButton) {
     toggleMoreOptionsButton.addEventListener('click', function() {
       // Code for showing more options...
-    });
+
   }
-});
+
 
 
 // jQuery ready function for carousel (if using jQuery)

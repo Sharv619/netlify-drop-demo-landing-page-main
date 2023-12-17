@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prototype-1 Social Awareness</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<link href="./css/website.css" rel="stylesheet">
+	<script src=".js/dropdown.js"></script>.
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+
+         <script src="./dropdown.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+<script>
+
+
+
+</script>
+	<header>
+		<nav>
+  <img class="logo" src="logo.jpg" width="70" alt="Advanced Consulting Services logo">
+  <a href="#" class="futuristic-button">Home</a> <!-- Changed href to "#" -->
+  <a href="#AboutUs" class="futuristic-button">About Us</a>
+  <a href="#Contactus" class="futuristic-button">Contact Us</a>
+			<div class="dropdown">
+				<button class="futuristic-button">Login/ Sign Up </button>
+				<div id="dropdown-content" class="dropdown-content">
+					<a href="#login-logout">Create Account</a>
+					<a href="#">Manage Account</a> 
+					<a href="#">Help</a>
+					<a href="#">Sign off</a>
+				</div>
+			</div></nav>
+
+            <section id="create-campaign">
+                <div class="campaign-form">
+                    <h2>Create Campaign</h2>
+                    <div class="form-group">
+                        <label for="campaign-title">Campaign Title</label><input type="text" class="form-control" id="campaign-title" placeholder="Enter a campaign title">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="campaign-description">Campaign Description</label>
+                        <textarea class="form-control" id="campaign-description"
+                            placeholder="Enter a campaign description"></textarea>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="target-audience">Target Audience</label>
+                        <input type="text" class="form-control" id="target-audience"
+                            placeholder="Enter the target audience for this campaign">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="issue-cause">Issue/Cause</label>
+                        <input type="text" class="form-control" id="issue-cause"
+                            placeholder="Enter the issue or cause that this campaign is addressing">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="expected-outcomes">Expected Outcomes</label>
+                        <textarea class="form-control" id="expected-outcomes"
+                            placeholder="Enter the expected outcomes of this campaign"></textarea>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="supporting-materials">Supporting Materials</label>
+                        <div class="drag-and-drop-file-upload">
+                            <p>Please provide any supporting materials such as images, videos, or relevant documents
+                                that can help illustrate the campaign's purpose and significance.</p>
+                            <input type="file" multiple label="Select files" placeholder="Upload one or more files">
+                        </div>
+                    </div>
